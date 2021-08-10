@@ -91,6 +91,25 @@ header {
         font-size: 16px;
       }
     }
+
+    .error-box {
+      display: none;
+      border: 1px solid red;
+      background-color: #ffebe8;
+
+      padding: 12px;
+      margin-bottom: 16px;
+
+      h3 {
+        font-size: 15px;
+        margin-bottom: 4px;
+      }
+
+      p {
+        font-size: 13px;
+        margin-bottom: 0;
+      }
+    }
   }
   &__control {
     padding: 16px 16px 0;

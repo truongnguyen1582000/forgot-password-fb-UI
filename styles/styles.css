@@ -131,6 +131,24 @@ header .login-form .login-btn {
   font-size: 16px;
 }
 
+.find-account__form .error-box {
+  display: none;
+  border: 1px solid red;
+  background-color: #ffebe8;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.find-account__form .error-box h3 {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.find-account__form .error-box p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
 .find-account__control {
   padding: 16px 16px 0;
   margin: 0 -16px;
