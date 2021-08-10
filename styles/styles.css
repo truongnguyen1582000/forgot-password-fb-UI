@@ -1,0 +1,229 @@
+:root {
+  --border-radius: 6px;
+}
+
+.container {
+  background-color: #e9ebee;
+}
+
+header {
+  background-color: #fff;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 5px 10px #d7d9db;
+          box-shadow: 0 5px 10px #d7d9db;
+  padding: 0 18px;
+}
+
+header .logo {
+  width: 113px;
+}
+
+header .login-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 18px;
+}
+
+header .login-control .forgot-password__link {
+  color: #216fdb;
+  font-size: 16px;
+}
+
+header .login-control .forgot-password__link:hover {
+  text-decoration: underline;
+}
+
+header .login-form input {
+  width: 188px;
+  height: 40px;
+  border-radius: var(--border-radius);
+  border: 1px solid #ced0d4;
+  padding: 8px 12px 10px;
+  margin-right: 6px;
+}
+
+header .login-form input::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+header .login-form input:-ms-input-placeholder {
+  font-size: 14px;
+}
+
+header .login-form input::-ms-input-placeholder {
+  font-size: 14px;
+}
+
+header .login-form input::placeholder {
+  font-size: 14px;
+}
+
+header .login-form .login-btn {
+  margin-right: 12px;
+}
+
+.find-account {
+  padding: 80px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.find-account__dialog {
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  -webkit-box-shadow: 0 0 4px 2px #d7d9dc;
+          box-shadow: 0 0 4px 2px #d7d9dc;
+}
+
+.find-account__dialog h2 {
+  font-size: 20px;
+  padding: 18px 16px 18px 18px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.find-account__form {
+  padding: 16px;
+  width: 500px;
+}
+
+.find-account__form p {
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+
+.find-account__form input {
+  width: 100%;
+  padding: 16px 0 16px 16px;
+  margin-bottom: 16px;
+  border-radius: var(--border-radius);
+}
+
+.find-account__form input::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+.find-account__form input:-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.find-account__form input::-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.find-account__form input::placeholder {
+  font-size: 16px;
+}
+
+.find-account__control {
+  padding: 16px 16px 0;
+  margin: 0 -16px;
+  border-top: 1px solid #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.find-account__control button {
+  padding: 8px 16px;
+}
+
+.find-account__control .btn--cancel {
+  margin-right: 8px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 190px 24px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer-container {
+  width: 980px;
+}
+
+footer .footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 6px;
+}
+
+footer .footer__list .more-language__btn {
+  background-color: #f5f6f7;
+  border: 1px solid #737373b7;
+  border-radius: 2px;
+  padding: 1px 6px;
+}
+
+footer .footer__list .more-language__btn i {
+  color: #747a88;
+  font-size: 14px;
+}
+
+footer .footer__list:nth-child(2) {
+  padding-top: 6px;
+  padding-bottom: 12px;
+  border-bottom: none;
+}
+
+footer .footer__list:nth-child(2) .footer__item {
+  padding-right: 20px;
+}
+
+footer .footer__item {
+  padding-right: 10px;
+}
+
+footer .footer__item a {
+  font-size: 12px;
+  color: #8a8d91;
+}
+
+footer .footer__item i {
+  color: #3b5998;
+}
+
+footer .active__language a {
+  color: #737373;
+}
+
+footer .copy-right {
+  font-size: 11px;
+  color: #737373;
+}
+
+@media screen and (max-width: 950px) {
+  .login-form input,
+  .forgot-password__link {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

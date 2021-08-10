@@ -1,0 +1,30 @@
+.btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  padding: 11px;
+
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn--primary {
+  background-color: #1877f2;
+}
+
+.btn--cancel {
+  color: #4b4f56;
+  background-color: #e4e6eb;
+}
+
+.input {
+  outline: none;
+  font-size: 16px;
+  border: 1px solid #ced0d4;
+}
+
+.input:focus {
+  border-color: #1877f2;
+}
