@@ -10,11 +10,13 @@ header {
   background-color: #fff;
   height: 56px;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 5px 10px #d7d9db;
 
   padding: 0 18px;
+  position: relative;
 
   .logo {
     width: 113px;
@@ -74,7 +76,7 @@ header {
 
   &__form {
     padding: 16px;
-    width: 500px;
+    max-width: 500px;
 
     p {
       font-size: 17px;
@@ -195,5 +197,13 @@ footer {
   .login-form input,
   .forgot-password__link {
     display: none;
+  }
+
+  header .login-control {
+    padding-right: 0;
+  }
+
+  header .login-form .login-btn {
+    margin-right: 0;
   }
 }
