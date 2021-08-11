@@ -28,3 +28,7 @@
 .input:focus {
   border-color: #1877f2;
 }
+
+.input:focus::-webkit-input-placeholder {
+  color: rgb(190, 195, 211);
+}
